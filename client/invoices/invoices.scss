@@ -1,0 +1,30 @@
+.invoice, .headers {
+    border: 1px solid #e2e2e2;
+    padding: 2em;
+    margin-bottom: 1em;
+    width: 500px;
+    transition: all .35s ease-in-out;
+    display: flex;
+
+    > div, > h3 {
+        flex: 1;
+        text-align: center;
+
+        &:first-child {
+            flex: 2;
+            text-align: left;
+        }
+    }
+}
+
+.headers, .totals {
+    transition: none !important;
+    border: none !important;
+    margin-bottom: -2em;
+    margin-top: -2em;
+}
+
+
+.invoice:hover {
+    border-color: #919191;
+}
