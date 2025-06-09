@@ -1,7 +1,6 @@
 # Prerequisites
 * Npm installed
 * Dotnet 8 OR Node (v22) installed - Depending on "Starting backend - Choose one"
-* Send us your Github account. Before the meeting you will get an invite to the repository.
 
 # Instructions
 ## Starting frontend
